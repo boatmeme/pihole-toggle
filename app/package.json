@@ -11,6 +11,7 @@
     "debug": "4.3.3",
     "express": "4.17.2",
     "morgan": "1.10.0",
+    "pi-hole-remote": "^0.1.2",
     "pug": "3.0.2",
     "serve-favicon": "2.5.0"
   },

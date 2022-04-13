@@ -2,11 +2,12 @@
 
 This is my starter kit to start using a Node JS (Express Pug Project) with Docker-compose.
 
-## Install
+## Docker
 
-You must install Docker on your machine first!
+`docker run` with the following ENV vars:
 
-Just run `docker-compose up --build`
-
-If you have a new recommendations all pull requests are welcome !
+```
+PIHOLE_API_KEY=123456789009123843029482
+PIHOLE_URL=http://pihole:8080
+```
 

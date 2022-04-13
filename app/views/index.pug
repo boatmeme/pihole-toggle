@@ -2,4 +2,8 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Ad Blocker Button
+  button(class='pushable', onclick=`toggleButton('clicky')`) 
+    span(class='shadow')
+    span(class='edge') 
+    span(class='front', id="clicky") Disable Ad Blocker
