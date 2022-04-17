@@ -1,9 +1,8 @@
 extends layout
 
 block content
-  h1= title
-  p Ad Blocker Button
-  button(class='pushable', onclick=`toggleButton('clicky')`) 
-    span(class='shadow')
-    span(class='edge') 
-    span(class='front', id="clicky") Disable Ad Blocker
+  form(action='/toggle_ad_block', method='POST')
+    button(class='pushable') 
+      span(class='shadow')
+      span(class='edge') 
+      span(class=(disabled === true ? 'front disabled' : 'front'), id="clicky") #{disabled === true ? 'Enable' : 'Disable'} Ad Blocker

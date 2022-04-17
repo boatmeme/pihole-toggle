@@ -61,7 +61,7 @@ a {
     600ms
     cubic-bezier(.3, .7, .4, 1);
 }
-.front.enabled {
+.front.disabled {
   background: rgb(3, 155, 0)
 }
 .pushable:hover {
